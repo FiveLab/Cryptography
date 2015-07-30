@@ -1,0 +1,27 @@
+{
+    "name": "fivelab/cryptography",
+    "description": "Tools for encrypt and decrypt",
+    "keywords": [ "encrypt", "decrypt", "openssl" ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vitaliy Zhuk",
+            "email": "v.zhuk@fivelab.org"
+        },
+
+        {
+            "name": "FiveLab Team",
+            "email": "dev@fivelab.org",
+            "homepage": "http://fivelab.org"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.4"
+    },
+
+    "autoload": {
+        "psr-4": { "FiveLab\\Component\\Cryptography\\": "src/" }
+    }
+}
